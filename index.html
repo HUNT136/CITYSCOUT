@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityScout - Your City Guide</title>
+    <link rel="icon" type="image/x-icon" href="logo3.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo3.png" alt="logo here">
+        <div class="ashish">
+            <h1>CityScout</h1>
+            <p>Your one-stop guide for accessing city services and facilities with ease.</p>
+        </div>
+        <a class="log-in" href="login.html">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path
+                    d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z" />
+            </svg>
+            <pre>Log-In</pre>
+        </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#police">Police</a></li>
+            <li><a href="#municipalitys">Hospitals</a></li>
+            <li><a href="#firefighters">Firefighters</a></li>
+            <li><a href="#municipality">Municipality</a></li>
+            <li><a href="#court">Court</a></li>
+        </ul>
+        <div class="input-wrapper">
+            <button class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="25px" width="25px">
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#fff"
+                        d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z">
+                    </path>
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#fff"
+                        d="M22 22L20 20"></path>
+                </svg>
+            </button>
+            <input placeholder="search.." class="input" name="text" type="text">
+        </div>
+    </nav>
+    
+    <main>
+        <section id="police">
+            <h2><a href="Police_Stations.html" target="_main">Police Stations</a></h2>
+            <p >Contact your local police stations to ensure safety and report incidents.</p>
+            <p class="desc">A police station serves as the primary hub for law enforcement and community safety in India. It is responsible for maintaining public order, preventing and investigating crimes, and providing assistance to citizens. Each station is staffed by trained police officers who are dedicated to upholding the law, addressing grievances, and fostering community relations. Facilities typically include a reception area, inquiry desk, and interrogation rooms. Police stations also play a vital role in community outreach programs and crime prevention initiatives, ensuring a safe and secure environment for all residents.</p>
+            
+               
+          <div id="police-map" class="map">
+            <img src="download5.jpg">
+          </div>
+            
+        </section>
+
+        <section id="municipalitys">
+            <h2><a href="Hospital.html" target="_main">Hospitals</a></h2>
+            <p>Our city hospitals provide a wide range of health services.</p>
+            <p class="desc">A hospital is a healthcare facility that provides comprehensive medical services to the community. It is equipped to diagnose, treat, and care for patients with various health conditions, offering services such as emergency care, surgery, maternity care, and specialized treatments. Staffed by qualified doctors, nurses, and healthcare professionals, hospitals ensure the delivery of quality medical care and support. They also play a vital role in health education and disease prevention, promoting overall well-being in the community.</p>
+              
+                <div id="municipality-map" class="map">
+                    <img src="download.jpg">
+                </div>
+            
+        </section>
+
+        <section id="firefighters">
+            <h2><a href="Firefighter.html" target="_main">Firefighters</a></h2>
+            <p>Fire stations are equipped with professionals ready to handle emergencies.</p>
+            <p class="desc">Firefighters are trained professionals dedicated to protecting life, property, and the environment from fire hazards. They respond to emergency situations, extinguish fires, and conduct rescue operations. Firefighters also engage in fire prevention activities, including public education and safety inspections, to minimize risks. Equipped with specialized tools and protective gear, they work tirelessly to ensure community safety and respond effectively to various emergencies, demonstrating courage and commitment in safeguarding the public.</p>
+           
+                <div id="firefighter-map" class="map">
+                    <img src="download3.jpg">
+                </div>
+          
+        </section>
+
+        <section id="municipality">
+            <h2><a href="Municipality.html" target="_main">Municipality Board</a></h2>
+            <p>The Municipality Board oversees city cleanliness and waste management.</p>
+            <p class="desc">A municipality is an administrative body responsible for governing a specific urban area in India. It manages essential services such as water supply, sanitation, waste management, and urban planning to ensure the well-being of residents. Municipalities also oversee local infrastructure, public health, and community development initiatives. Elected representatives work to address the needs and concerns of citizens, promoting effective governance and enhancing the quality of life in urban settings.</p>
+             
+                <div id="municipality-map" class="map">
+                    <img src="download4.jpg">
+                </div>
+    
+        </section>
+
+        <section id="court">
+            <h2><a href="Court.html" target="_main">Court</a></h2>
+            <p>The court handles all legal matters, from civil to criminal proceedings.</p>
+            <p class="desc">Courts are judicial institutions that administer justice and uphold the rule of law in India. They resolve disputes, adjudicate criminal and civil cases, and protect individual rights through fair trials. Comprising various levels, including Supreme Court, High Courts, and lower courts, they ensure legal proceedings are conducted according to established laws. Courts also play a crucial role in interpreting legislation and safeguarding constitutional rights, fostering a just and equitable society for all citizens.</p>
+           
+                <div id="court-map" class="map">
+                    <img src="download2.jpg">
+                </div>
+          
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CityScout - Making city services easy to access for everyone.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

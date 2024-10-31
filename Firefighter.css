@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --primary-green: #00aa6c !important;
+  --Dark: #282e40;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+body{
+    overflow-x: hidden;
+}
+
+.navigation{
+    background-color: hsl(210, 29%, 24%);
+    margin: 0;
+    width: 100%;
+    height: 139px;
+    padding: 16px 0;
+}
+nav{
+    padding: 0;
+    height: 100%;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-expand-lg{
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.idk{
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+.idk:hover{
+    color: white;
+}
+.logo{
+    width: 5rem;
+    margin-left: 3%;
+}
+
+.hero {
+  min-height: 60vh;
+  background: url("back.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="search"] {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+input[type="search"]:hover {
+  border: 1px solid var(--primary-green);
+}
+
+input[type="search"]::placeholder {
+  color: var(--primary-green);
+}
+
+#map {
+  width: 100%;
+  height: 98vh;
+}
+
+input[type="text"]::placeholder {
+  color: var(--Dark);
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+h4,
+h5 {
+  color: var(--primary-green);
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.checked {
+  color: var(--primary-green);
+}
+
+.hname,
+.description {
+  color: var(--Dark);
+}
+
+.description {
+  opacity: .8;
+}
+
+.location {
+  font-size: 13px;
+  color: var(--Dark);
+  opacity: .8;
+}
+
+.footer {
+  background-color: var(--Dark);
+  font-weight: bolder;
+}
+
+.logoName {
+  color: var(--primary-green);
+}
+
+.lion{
+  height: 50px;
+  width: 40px;
+}
+.phrase{
+    display: flex;
+    display: block;
+    margin-left: 9rem;
+}
+.navbar-collapse{
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 3.2rem;
+  margin-right: 1rem;
+}
+.map-section > div{
+  display: flex;
+  justify-content: center;
+}
+#map{
+    width: 80vw;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
